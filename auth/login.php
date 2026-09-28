@@ -74,10 +74,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <label>Password</label>
             <input type="password" name="password" required>
 
-            <button type="submit" class="btn btn-primary w-full text-center">Login</button>
-        </form>
-
-        <p>Don't have an account? <a href="<?= url('/auth/register.php') ?>">Register here</a></p>
-    </div>
+               <button type="submit" class="btn btn-primary w-full text-center">Login</button>
+    </form>
+    <p style="text-align: center; margin-top: 15px;">
+    <a href="<?= url('/auth/forgot_password.php') ?>" style="font-size: 0.9em;">Forgot Password?</a>
+</p>
+    <p style="text-align: center;">Don't have an account? <a href="<?= url('/auth/register.php') ?>">Register here</a></p>
 </body>
 </html>

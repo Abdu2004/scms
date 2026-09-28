@@ -21,8 +21,8 @@
 define('SMTP_HOST', 'smtp.gmail.com');
 define('SMTP_PORT', 587);
 define('SMTP_ENCRYPTION', 'tls'); // Gmail uses STARTTLS on port 587
-define('SMTP_USERNAME', 'youraddress@gmail.com');   // <-- change this
-define('SMTP_PASSWORD', 'your16charapppassword');   // <-- change this (App Password, no spaces)
+define('SMTP_USERNAME', 'ndapreppro@gmail.com');   // <-- change this
+define('SMTP_PASSWORD', 'akuryvoxxqthdpwk');   // <-- change this (App Password, no spaces)
 define('SMTP_FROM_EMAIL', SMTP_USERNAME);
 define('SMTP_FROM_NAME', 'Student Complaint & Resolution Tracking System');
 
